@@ -195,7 +195,7 @@ document.addEventListener('DOMContentLoaded', function() {
             addMessage(botResponse, 'bot-message');
         } catch (error) {
             console.error('Error al enviar mensaje al webhook:', error);
-            addMessage('Lo siento, nuestro chatbot está reparándose, contáctanos por correo electrónico o bien rellenando el formulario. Y si lo que quieres es hablar con rato con el Bot... Inténtalo en un rato.', 'bot-message');
+            addMessage('Lo siento, nuestro chatbot está reparándose, contáctanos por correo electrónico o bien rellenando el formulario. Y si lo que quieres es, hablar un rato con el Bot... Inténtalo dentro de poco.', 'bot-message');
         }
     });
 
@@ -341,3 +341,4 @@ function throttle(func, limit) {
     }
 
 } 
+
